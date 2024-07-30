@@ -30,7 +30,10 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
           title: Text(args.suraName),
         ),
         body: ayat.isEmpty
-            ? const Center(child: CircularProgressIndicator())
+            ? Center(
+                child: CircularProgressIndicator(
+                color: Theme.of(context).primaryColor,
+              ))
             : Container(
                 padding: EdgeInsets.symmetric(
                     vertical: MediaQuery.of(context).size.height * 0.02),
