@@ -55,7 +55,7 @@ class _SebhaTabState extends State<SebhaTab> {
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
-                color: AppTheme.darkPrimary.withOpacity(0.6),
+                color: Theme.of(context).primaryColor.withOpacity(0.6),
               ),
               child: Text(
                 '$numberOfTasbeh',
@@ -67,7 +67,7 @@ class _SebhaTabState extends State<SebhaTab> {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  backgroundColor: AppTheme.darkPrimary,
+                  backgroundColor: Theme.of(context).primaryColor,
                   shape: ContinuousRectangleBorder(
                       borderRadius: BorderRadius.circular(25))),
               onPressed: () {
