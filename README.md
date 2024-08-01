@@ -4,7 +4,7 @@ Islami App is a Flutter-based mobile application designed to provide users with 
 
 ## Features
 
-- **Quran**: Complete Quran with Arabic text, translations, and audio recitations.
+- **Quran**: Complete Quran with Arabic text, and audio recitations.
 - **Sebha**: Digital Tasbih counter to keep track of your dhikr.
 - **Hadith**: A collection of Hadith from Sahih Bukhari, Sahih Muslim, and other authentic sources.
 - **Radio**: Islamic radio stations streaming live.
